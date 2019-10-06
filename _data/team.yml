@@ -1,129 +1,439 @@
+#------ How to contribute ----------------------------
+# 1. Fork this repo
+# 2. Edit the yml file in your forked repo
+# 3. Send a Pull Request from your repo
+
+#------ How to add data to the yml file --------------
+# 1. Search for you respective category
+# 2. Add name to name:
+# 3. Add title just like others in the same category
+# 4. Add a small bio/description to desc: 
+# 5. Add your github link to github: under socail-link   [ Please maintain the alignmet! ]
+# 6. Add the link to your github avatar image to img:
+# 7. Add your prefered languages to the stack:
+# 8. Please Add your data at the end of each category instead of the top.
+
 #Faculty
 - category: Faculty
   name: Dr. Satyabrata Maity
   title: Coordinator
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/45302260_1916673318425356_3634631514647429120_n.jpg?_nc_cat=102&_nc_oc=AQnGuH0M4eyoG4W3Eird2nr8UJR2lQYr6h22lvxZiQMzAE9wDGf7fB1CCKq_qqABo4A&_nc_ht=scontent-maa2-2.xx&oh=6874958dbdd432c2af701a5a6e157ee3&oe=5DEE12D0
+
 - category: Faculty
   name: Dr. Rourab Paul
   title: Coordinator
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/53359582_10214024196422887_5249301229510590464_n.jpg?_nc_cat=110&_nc_oc=AQlViiOx68HeX8fePZkFLEAQYr11KGI6fiR9uVsAnO6dqL-iJZsBA2I2WjkhMyi_QxA&_nc_ht=scontent-maa2-2.xx&oh=402b797cdcb00118175bce168177db64&oe=5DA1737C
+
 - category: Faculty
   name: Dr. Nimisha Ghosh
   title: Associate Member
-  desc: --
-  img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/582474_10151214411797638_901838014_n.jpg?_nc_cat=108&_nc_oc=AQkEtdT1l5gg-5Jo3t1hxE8Mvvb7umk-4EbsWTCoQJ7bbLaglRrktIHXTDHJfXYoaog&_nc_ht=scontent-maa2-2.xx&oh=98bb3e18bd0c37789b840d6fad9e4965&oe=5DA838AD
+  desc: I am an Assistant professor in the Department of Computer Science and Information Technology. <br> I have completed my B.Tech from West Bengal University of Technology in 2009.<br>After that I had worked for 2 years at Accenture.<br>I left my job to pursue my masters degree from Indian institute of Engineering Science and Technology, Shibpur in 2014.<br>I have completed my PhD in 2018 from the same institute as well.
+  stack:
+    - Machine Learning
+    - Internet of Things
+    - Wireless Sensor Network
+  img: ../img/faculty/nimisha_ghosh.png
+  social-links:
+    website: http://nimishaghosh.epizy.com
+
 - category: Faculty
   name: Dr. Suman Sau
   title: Associate Member
-  desc: --
-  img: 
+  desc: Empty
+  img:
+
 - category: Faculty
   name: Dr. Arnab Mitra
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Dr. Santosh Kumar
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Mr. Sayantan Saha
   title: Associate Member
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/53578806_2235892939800621_1061555219369820160_o.jpg?_nc_cat=100&_nc_oc=AQlQE-LMoaXchpNbt3JfrDN4IZTrXliO_q74c6SGkCuTnW7BibG_isKOYVil6ciYadE&_nc_ht=scontent-maa2-2.xx&oh=ffee2bac979863bfe8e6039d9e74c6db&oe=5DD29FD0
+
 - category: Faculty
   name: Mr. Krishanu Maity
   title: Associate Member
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t31.0-8/27908128_1594462240646267_1704697539193258322_o.jpg?_nc_cat=102&_nc_oc=AQl2b4NdMTcDiI91vGmvS-SFOXTzcuTnqwg3O04SqgNVN_aiefFcZFa9ql1uSSgxPHs&_nc_ht=scontent-maa2-2.xx&oh=196bf8b56a16ac94c8a7c95a3b23a651&oe=5DA463BE
+
 - category: Faculty
   name: Mr. Paresh Baidya
   title: Associate Member
-  desc: --
-  img:
+  desc: I am an Assistant professor in the Department of Computer Science and Engineering.<br><b>Education:</b></br>MTech in computer science and data processing, IIT Kharagpur.<br>MSc in Mathematics, IIT Madras.<br>BSc in Mathematics, Calcutta university.
+  img: ../img/faculty/paresh_baidya.png
+
 - category: Faculty
   name: Mr. Rajesh Purkait
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Mr. Jogendra Garain
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Mr. Lokendra Birla
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
 
 #Founders
 - category: Founders
-  name: Adarsh
+  name: Sidharth Satapathy
   title: Founder
-  desc: --
-  img:
-
+  desc:  In short I am a tech Savvy. I have always been fascinated by computers from childhood.<br>Athough I have had some failed startups I have learnt a lot from the experiences. I am looking forward to pursuing my passion and obsession with how technology works.<br>I have worked on various websites. I have made a website for the Odisha government named (dakhinaodishaunnayanparishad.org ). I have made small android apps. The more I am learning about and building stuffs I can clearly see that I am just touching the surface of a huge ocean of technology.<br>I'm looking forward to continue learning and building new stuffs. 
+  social-links:
+    github: https://github.com/xlreon
+    linkedin: https://in.linkedin.com/in/sidharthsatapathy
+  stack:
+    - JavaScript
+    - Android Development
+    - Full-Stack Web Development
+    - Python
+    - ML & AI
+  img: https://avatars2.githubusercontent.com/u/26788670?s=460&v=4
+  
+- category: Founders
+  name: Swastik Preetam Dash
+  title: Founder
+  desc: Empty
+  social-links:
+    github: https://github.com/dashPreetam
+    linkedin: https://in.linkedin.com/in/swastikdash1/
+  img: https://media.licdn.com/dms/image/C5103AQF0u3mEKWy8Tg/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=RMN9BsvbJrog5ixhg5vbz-qs1BnMg874iEfLj6xhfdg
+  
+- category: Founders
+  name: Amitdyuti Behera
+  title: Founder
+  desc: A perfect blend of miniscule imperfections.
+  social-links:
+    github: 
+    linkedin: https://in.linkedin.com/in/amitdyuti
+  img: https://media.licdn.com/dms/image/C5603AQHUfnsCiWCZRg/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=Kfc7GANWRBcUiTow21tck5gbO-9vL_tXsB91SS-EezA
+  
+- category: Founders
+  name: Ankita Rath
+  title: Founder
+  desc: Experienced Software Engineer with a demonstrated history of working in the computer software industry.<br>Skilled in Java, ColdBox, HTML, CSS, JS, Angular.
+  social-links:
+    github: https://github.com/Ank-lucky
+    linkedin: https://in.linkedin.com/in/ankita-rath
+  img: https://media.licdn.com/dms/image/C5103AQGkuUF51Mxdlw/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=O_NzTdsTrTG1U28Pe9BbBgvLiTTaPtrwXmPfPPPvac0
+  
+- category: Founders
+  name: Adarsh Biswal
+  title: Founder
+  desc: True Stack JAVA developer
+  social-links:
+    github: https://github.com/AdarshBiswal
+  img: https://avatars3.githubusercontent.com/u/26766225?s=460&v=4
+  
 #Alumni
 - category: Alumni
-  name: Srinibas
+  name: Srinibas Biswal
   title: Senior Coordinator
-  desc: --
-  img:
+  desc: Empty
+  social-links:
+    github: https://github.com/srinibasbiswal/
+    linkedin: https://in.linkedin.com/in/srinibasbiswal
+    website: https://srinibasbiswal.com/
+  img: https://media.licdn.com/dms/image/C4E03AQGf4Vjv5xobZw/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=QWBUa7UosTAZyoDyRmvnTJ2SQjYjD7BURu2KiS_ZLx4
+  
+- category: Alumni
+  name: Swaraj Laha
+  title: Senior Coordinator
+  desc: Highly interested in Front End Web Development and Cloud Computing Platforms, like AWS.
+  social-links:
+    github: https://github.com/swarajlaha
+    linkedin: https://in.linkedin.com/in/swarajlaha 
+  img: https://media.licdn.com/dms/image/C5103AQGo2T8w5Hi0PQ/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=01HuCk8vH8jSSriHSwxBmnjnhj0d9BNUYQQRgUVSfXo
     
 #Senior Coordinator
 - category: Senior Coordinator
   name: Debashish Mishra
   title: Senior Coordinator
-  desc: I'm a 4th year B.Tech CSE student.
-  stack: C, Python and PHP.
+  desc: I'm a 4th year B.Tech CSE student.<br> I'm currently working in the field of Machine Learning and learning about Image Processing Algorithms.<br> I love Linux and Free Open Source Software[FOSS].<br> I'm also a huge nerd and an otaku, so if you want to re-watch the whole naruto series then ping me, we will watch it together :D.
+  stack: 
+    - C
+    - Python
+    - Back-end Web Development
+    - Linux
   social-links:
     github: https://github.com/Zanark
     facebook: https://facebook.com/DMZANARK
+    linkedin: https://www.linkedin.com/in/zanark/
   img: https://avatars3.githubusercontent.com/u/32354314?s=460&v=4
 
 - category: Senior Coordinator
   name: Subhrajit Prusty
   title: Senior Coordinator
   desc: I'm a 4th year B.Tech CSIT student.
-  stack: Python, Linux
+  stack: 
+    - Python
+    - Linux
   social-links:
     github: https://github.com/SubhrajitPrusty
   img: https://avatars1.githubusercontent.com/u/4463839?s=460&v=4
+
+- category: Senior Coordinator
+  name: Dibya Ranjan Jena 
+  title: Senior Coordinator
+  desc: I'm a 4th year B.Tech ECE student.
+  stack: 
+    - Python
+    - Docker
+    - Linux
+  social-links:
+    github: https://github.com/dibyasonu
+    linkedin: https://www.linkedin.com/in/dibyajena/
+  img: https://media.licdn.com/dms/image/C5103AQHx8KFG41UrPA/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=eXjnNrhn7ohtJIdmLfo6IFZ7-5CGf7xJwPg068Z8gfA
 
 #Coordinators
 - category: Coordinator
   name: MD Azmal
   title: Coordinator
-  desc: --
-  img:
+  desc: I am a 3rd year B.Tech CSE student.<br> I have a good experience in working with blockchain and fullstack.<br> Currently I am exploring Machine Learning and IoT.
+  stack: 
+    - Python
+    - Javascript
+    - C++
+    - Processing
+  social-links:
+    github: https://github.com/MD-AZMAL
+    facebook: https://www.facebook.com/md.azmal.92
+    linkedin : https://www.linkedin.com/in/md-azmal-570308160
+    website: http://azmal.me
+  img: https://avatars3.githubusercontent.com/u/33421347?s=460&v=4
+  
+- category: Coordinator
+  name: Aruba Shireen
+  title: Coordinator
+  desc: I'm a 3rd year B.Tech CSIT student.
+  stack: 
+    - Java
+    - JavaScript
+  social-links:
+    github: https://github.com/aruba246
+    linkedin: linkedin.com/in/aruba246/
+  img: https://avatars0.githubusercontent.com/u/30324086?s=460&v=4
 
-#Members
-- category: Member
-  name: Nehal
+- category: Coordinator
+  name: Pawan Gorai
+  title: Coordinator
+  desc: I'm a 3rd year B.Tech CSIT student.
+  stack: 
+    - Java
+    - C
+    - JavaScript
+  website: http://pawankumar.me/
+  social-links:
+      github: https://github.com/Pawan0411
+      facebook: https://www.facebook.com/pawan1904
+      linkedin: https://www.linkedin.com/in/pawan-kumar-gorai-b79508161/
+  img: https://avatars2.githubusercontent.com/u/32352500?s=400&v=4
+
+- category: Coordinator
+  name: Pritam Kar
   title: Member
-  desc: --
-  img:
+  desc: I'm a 2nd year B.Tech CSE student at ITER.
+  stack: 
+    - Java
+    - C++
+    - Python
+  social-links:
+    github: https://github.com/pikaz143
+  img: https://avatars3.githubusercontent.com/u/42296778?s=400&v=4
 
-- category: Member
+- category: Coordinator
   name:  Mohit Agarwal
   title: Member
   desc: I'm a 4th year B.Tech CSIT student.
-  stack: Java, Python
+  stack: 
+    - Java
+    - Python
   social-links:
     github: https://github.com/mojito9542
   img: https://avatars3.githubusercontent.com/u/35900091?s=400&v=4
 
-- category: Member
+- category: Coordinator
   name:  Swagat Parija
   title: Member
   desc: I'm a 4th year B.Tech CSIT student.
-  stack: Python, JavaScript
+  stack: 
+    - Python
+    - JavaScript
   social-links:
     github: https://github.com/swagat5147
     facebook: https://www.facebook.com/swagat5147
     linkedin: https://www.linkedin.com/in/swagat-parija
   img: https://avatars1.githubusercontent.com/u/31531209?s=460&v=4
+
+- category: Coordinator
+  name:  Syed Salif Moin
+  title: Member
+  desc: I'm a 4th year B.Tech CSE student at ITER.
+  stack: 
+    - Python
+    - Java
+    - JavaScript
+  social-links:
+    github: https://github.com/salif-04
+  img: https://avatars0.githubusercontent.com/u/32351953?s=460&v=4
+
+#Members
+- category: Member
+  name:  Parag Bhattacharjee
+  title: Member
+  desc: I'm a 3rd year B.Tech CSE student.<br> I have some exposure to android app developement,web developement and PHP.<br> I am currently working on a tourism app, web-designing and attendance management system. You can check the status of my projects on my GitHub profile.
+  stack: 
+    - Java
+    - C
+    - PHP
+    - MySql
+    - Android App Developement
+  social-links:
+    github: https://github.com/Parag357
+  img: https://avatars0.githubusercontent.com/u/42310311?s=400&v=4
+
+- category: Member
+  name: Nehal
+  title: Member
+  desc: Empty
+  img: https://avatars1.githubusercontent.com/u/41484543?s=400&v=4
+  stack:
+    - Java
+    - Python
+    - Ethical Hacking
+
+- category: Member
+  name: Adarsh Padhi
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE B student at ITER.
+  stack:  
+  - Java
+  - JavaFx
+  - JavaScript
+  - C
+  social-links:
+    github: https://github.com/adarsh1405
+  img: https://avatars3.githubusercontent.com/u/45957713?s=400&u=6afe2d2e1be48207a097a26c20a74abb59c094ac&v=4
+
+- category: Member
+  name: Madhaba Patra
+  title: Member
+  desc: I'm a 2nd year B.Tech CSIT B student at ITER.
+  stack:  
+  - Java
+  - Javascript
+  social-links:
+    github: https://github.com/MadhabaPatra
+  img: https://avatars1.githubusercontent.com/u/42464927?s=400&v=4
+  
+- category: Member
+  name: Jyoti Jayadeep
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE E student at ITER.
+  stack:
+  - C
+  - Python
+  social-links:
+   github: https://github.com/obli99
+  img: https://avatars2.githubusercontent.com/u/44501265?s=400&v=4
+
+- category: Member
+  name: Sandip Nayak
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student.
+  stack:
+  - C
+  - Python
+  social-links:
+    github: https://github.com/SandipNayak
+  img: https://avatars3.githubusercontent.com/u/46400343?s=400&u=fd0d1b8fd3406e872fcdabfa2514c7ba8dd26cf4&v=4
+
+- category: Member
+  name: Sonali Pradhan
+  title: Member
+  desc: I'm a 1st year CSE student 
+  stack:
+  - C++
+  - Java
+  social-links:
+    github: https://github.com/pradhansonali67
+  img: https://avatars2.githubusercontent.com/u/53335321?s=400&v=4
+
+- category: Member
+  name: Yash Gupta
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student.
+  stack: 
+  - Java
+  - C
+  social-links: https://github.com/yash9685
+  img: https://avatars1.githubusercontent.com/u/45978218?s=400&v=4
+
+- category: Member
+  name: Sweta Snigdha Sahoo
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE B student at ITER.
+  stack:  
+  - Java
+  - C++
+  - C
+  social-links:
+    github: https://github.com/swetasahoo29
+  img: https://avatars3.githubusercontent.com/u/46675936?s=400&u=860c2b351beff7f9733cc728640fcaf55fec55f5&v=4
+
+- category: Member
+  name: Ankita Satapathy
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student
+  stack:
+   - C
+   - Java
+   - Javascript
+  social-links:
+    github: http://github.com/ankita-04
+  img: https://avatars3.githubusercontent.com/u/45062304?s=400&v=4
+
+- category: Member
+  name: Subham Sagar Paira
+  title: Member
+  desc: I'm a 2nd year B.Tech CSIT A student at ITER.
+  stack:  
+  - C
+  - C++
+  - Java
+  social-links:
+    github: https://github.com/subhamsagar524
+  img: https://avatars1.githubusercontent.com/u/42293958?s=400&v=4
+
+- category: Member
+  name: Gyanaranjan Sahoo
+  title: Member
+  desc: I am a 1st Year B.Tech CSE O student at ITER. <br>  I Love Automation , Pentesting And Reverse Engineering.
+  stack:  
+  - Java
+  - Python
+  - Bash
+  - Visual Basic
+  - Ethical Hacking
+  - Linux
+  social-links:
+    github: https://github.com/TheSpeedX
+  img: https://avatars3.githubusercontent.com/u/42498830?v=4

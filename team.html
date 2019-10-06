@@ -18,7 +18,7 @@ permalink: /team/
     </div>
 </section>  
 
-<!-- Portfolio Start -->
+<!-- Portfolios Start -->
 <section id="portfolio-work">
 {% if site.data.team.size > 0 %}
 <div class="container">
@@ -30,19 +30,47 @@ permalink: /team/
       {% for p in site.data.team %}
         {% if p.category == "Faculty" %}
 
+        
+
         <div class="row-eq-height">
             <div class="col-md-7 col-sm-12">
               <div class="block">
                   <h2>{{ p.name }}</h2>
-                <p>{{ p.desc }}</p>
+                <p>{{ p.desc }}</p><br>
               </div>
             </div><!-- .col-md-7 close -->
             <div class="col-md-5 col-sm-12">
               <div class="profile" style="border: 0px;">
-                <img src="{{ p.img }}" alt="Img">
+                <a href="{{ p.social-links.website }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
-          </div><!-- Faculty Close --><br>
+                        
+            <br>
+            <!-- Stack Tags -->
+            <ul class="stack">
+              {% for tag in p.stack %}
+              <li><a href="https://duckduckgo.com/?q={{tag}}" class="tag">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+            <!-- Stack Tags End-->
+            <br>
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.website }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Website">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div><!-- Faculty Close -->
+          <br><br><br>
 
         {% endif %}
       {% endfor %}
@@ -66,10 +94,43 @@ permalink: /team/
             </div><!-- .col-md-7 close -->
             <div class="col-md-5 col-sm-12">
               <div class="profile" style="border: 0px;">
-                <img src="{{ p.img }}" alt="Img">
+                <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
-            </div><!-- .col-md-5 close -->
-          </div><!-- Faculty Close --><br>
+            </div><!-- .col-md-5 close -->            
+            <br>
+            <!-- Stack Tags -->
+            <ul class="stack">
+              {% for tag in p.stack %}
+              <li><a href="https://duckduckgo.com/?q={{tag}}" class="tag">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+            <!-- Stack Tags End-->
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Social Links End-->
+          
+          </div><!-- Founders End --><br>
 
       {% endif %}
     {% endfor %}
@@ -79,7 +140,7 @@ permalink: /team/
 <div class="container">   
     
     <h1>Alumni</h1>
-    <p>Here are some memebers that have already stepped into the corporate world.</p>
+    <p>Here are some members that have already stepped into the corporate world.</p>
 
     {% for p in site.data.team %}
       {% if p.category == "Alumni" %}
@@ -93,10 +154,43 @@ permalink: /team/
             </div><!-- .col-md-7 close -->
             <div class="col-md-5 col-sm-12">
               <div class="profile" style="border: 0px;">
-                <img src="{{ p.img }}" alt="Img">
+                <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
-          </div><!-- Faculty Close --><br>
+                        
+            <br>
+            <!-- Stack Tags -->
+            <ul class="stack">
+              {% for tag in p.stack %}
+              <li><a href="https://duckduckgo.com/?q={{tag}}" class="tag">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+            <!-- Stack Tags End-->
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Social Links End-->
+          
+          </div><!-- ALumni End --><br>
 
       {% endif %}
     {% endfor %}
@@ -122,7 +216,40 @@ permalink: /team/
               <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
-        </div><!-- Senior Coordinator --><br><br>
+                        
+            <br>
+            <!-- Stack Tags -->
+            <ul class="stack">
+              {% for tag in p.stack %}
+              <li><a href="https://duckduckgo.com/?q={{tag}}" class="tag">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+            <!-- Stack Tags End-->
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Social Links End-->
+          
+        </div><!-- Senior Coordinator End --><br><br>
 
       {% endif %}
     {% endfor %}
@@ -149,7 +276,39 @@ permalink: /team/
                 <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
-          </div><!-- Faculty Close --><br>
+            
+            <br>
+            <!-- Stack Tags -->
+            <ul class="stack">
+              {% for tag in p.stack %}
+              <li><a href="https://duckduckgo.com/?q={{tag}}" class="tag">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+            <!-- Stack Tags End-->
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Social Links End-->
+          </div><!-- Coordinators Close --><br>
 
       {% endif %}
     {% endfor %}
@@ -176,7 +335,37 @@ permalink: /team/
                 <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
-          </div><!-- Faculty Close --><br>
+
+            <br>
+            <ul class="stack">
+              {% for tag in p.stack %}
+              <li><a href="https://duckduckgo.com/?q={{tag}}" class="tag">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Social Links End-->
+          </div><!-- Member Close --><br>
 
       {% endif %}
     {% endfor %}
